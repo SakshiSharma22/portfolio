@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#technologies">Technologies</a>
+          <!---- <a href="#portfolio">Portfolio</a>-->
+            <a href="#contact">Contact</a>
+
+
+
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Sakshi Sharma</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I love to create beautiful and performant products with delightful user experiences.</p>
+             <div class="social-media">
+            <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="home.png" alt="">
+        </div>
+    </section>
+    <!--about section design-->
+    
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="home.png" alt="">
+
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span> Me</span></h2>
+            <h3>Full Stack Developer!</h3>
+            <p>Hi! I’m Sakshi Sharma, a computer science student in the class of 2020. I’m a hard-working, passionate person who believes in the importance of education and accessibility to technological advancements.
+               My computer experience started early—my parents always had one in our house. They had already taught me how to use the internet by the time I was old enough to understand it. My dad was a teacher, so he encouraged me to pursue computer science as my career path from a young age.
+               I’ve been involved in many different projects at GLA University-we're currently working on a website named <span>Musify</span>that allows people to listen music of their own choices.</p>
+               <a href="#" class="btn">Read More</a>
+
+        </div>
+    </section>
+    <!---service section design-->
+
+    <section class="technologies" id="technologies">
+        <h2 class="heading"><span>Technologies</span></h2>
+        <div class="Technology-container">
+            <div class="technology-box">
+                <i class='bx bxl-html5' ></i>
+            <h3>HTML5</h3>
+            <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. 
+                Other technologies besides HTML are generally used to describe a web page's appearance/presentation. Basically it gives out website its tructure.
+            </p>
+           <!---- <a href="#" class="btn">Read More</a>-->
+        </div>
+
+        <div class="technology-box">
+            <i class='bx bxl-css3'></i>
+            <h3>CSS</h3>
+            <p>It is a style sheet language which is used to describe the look and formatting of a document written in markup language. 
+                It provides an additional feature to HTML.
+            </p>
+           <!----<a href="#" class="btn">Read More</a>-->
+        </div> 
+        <div class="technology-box">
+            <i class='bx bxl-javascript' ></i>
+            <h3>Javascript</h3>
+            <p> JavaScript often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web,
+                 alongside HTML and CSS.
+            </p>
+            <!--<a href="#" class="btn">Read More</a>-->
+        </div> 
+        <div class="technology-box">
+            <i class='bx bxl-mongodb' ></i>
+            <h3>Mongodb</h3>
+            <p> MongoDB is an open-source document-oriented database that is designed to store a large scale of data and also allows you to work with that data very efficiently. 
+                Mainly it is used to store and work with unlimited data.
+            </p>
+            <!--<a href="#" class="btn">Read More</a>-->
+        </div> 
+       <!----<a href="#" class="btn">Hire Me</a>-->
+    </div>
+
+    </section>
+
+<!--portfolio section design
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="" alt="">
+        </div>
+    </div>
+</section>-->
+
+<!--contact section design-->
+
+<section class="contact" id="contact">
+     <h2 class="heading">Contact<span>Me!</span></h2>
+
+     <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+       </div>
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+       </div>
+       <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+       <input type="submit" value="Send Message" class="btn">
+     </form>
+</section>
+
+<!--footer design-->
+<footer class="footer">
+  <div class="footer-text">
+       <p>All the information given above are true.</p>
+  </div>
+  <div class="footer-iconTop">
+    <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+  </div>
+</footer>
+
+<!---------------------scroll reveal---------->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!-----typed js-------->
+
+<!--custom js-->
+    <script src="script.js"></script>
+</body>
+</html>
